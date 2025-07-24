@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Tailwind cdn link -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- Font awesome cdn -->
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,13 +16,13 @@
 
 <body class="font-inter">
     <header>
-        <nav class="max-w-10/12 mx-auto flex items-center justify-between py-6 ">
+        <nav class="max-w-6xl mx-auto flex items-center justify-between py-6 px-4">
             <!-- logo -->
             <div class="flex items-center ">
                 <img src="./assets/logo.png" alt="" class="h-[50px]">
             </div>
             <!-- nav links -->
-            <ul class="hidden lg:block lg:flex lg:ju space-x-12 text-lg pt-2">
+            <ul class="hidden lg:flex space-x-12 text-lg pt-2">
                 <li class="text-[#252432] font-semibold"><a href="#">Home</a></li>
                 <li class="text-[#8987A1]"><a href="#">Shop</a></li>
                 <li class="text-[#8987A1]"><a href="#">About us</a></li>
@@ -38,121 +38,120 @@
             </div>
         </nav>
     </header>
-    <main class="">
+
+    <main>
         <!-- Hero Section -->
         <section
-            class="flex flex-col justify-between items-center lg:flex-row-reverse lg:items-end justify-between lg:max-w-10/12 mx-auto mt-12">
+            class="flex flex-col-reverse items-center justify-center lg:flex-row-reverse lg:items-end max-w-6xl mx-auto mt-12 px-4">
             <div class="lg:w-[50%]">
                 <img src="./assets/hero-flower.png" alt="">
             </div>
-            <div class=" flex flex-col lg:w-[50%] py-4">
+            <div class="flex flex-col lg:w-[50%] py-4">
                 <h2 class="text-xl lg:text-5xl font-bold text-[#000000] noto-serif mb-4">ALWAYS <span
                         class="text-[#E95A08]">FRESH <br> FLOWERS</span></h2>
-                <p class="text-black/50 text-sm lg:text-xl mt-4 ">Indulge your senses with the beauty and fragrance of <br>
-                     our fresh flower shop. From classic roses to exotic <br>blooms, we offer a wide variety of
-                    fresh flowers that <br> are perfect for any occasion. </p>
+                <p class="text-black/50 text-sm lg:text-xl mt-4">Indulge your senses with the beauty and fragrance of
+                    <br>
+                    our fresh flower shop. From classic roses to exotic <br>blooms, we offer a wide variety of
+                    fresh flowers that <br> are perfect for any occasion.
+                </p>
             </div>
         </section>
+
         <!-- Product section -->
-        <section class="max-w-10/12 mx-auto ">
+        <section class="max-w-6xl mx-auto px-4">
             <!-- Product title -->
             <div class="flex flex-col items-center my-14">
-                <h2 class="text-3xl lg:text-5xl noto-serif text-[#000000] "><span class="text-[#E95A08]">Our</span> Plants</h2>
-                <p class="text-black/50 text-md text-center">Indulge your senses with the beauty and fragrance of our fresh flower
+                <h2 class="text-3xl lg:text-5xl noto-serif text-[#000000] "><span class="text-[#E95A08]">Our</span>
+                    Plants</h2>
+                <p class="text-black/50 text-md text-center">Indulge your senses with the beauty and fragrance of our
+                    fresh flower
                     shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
+
             <!-- Product cards -->
             <section class="grid grid-cols-2 lg:grid-cols-4 gap-4">
-                <div class="">
-                    <!-- product image -->
-                    <div class="">
+                <!-- Repeatable card (7 times shown, 2 hidden on small screen) -->
+                <div>
+                    <div>
                         <img src="./assets/sample-flower-image.png" alt="" class="w-full">
                     </div>
-                    <!-- product contents -->
                     <div class="flex flex-col items-center">
                         <p class="text-[#111111] text-xl">Lily Blossom</p>
                         <p class="font-semibold text-[#111111] text-xl">20 USD</p>
                         <button class="uppercase py-4 bg-[#E95A08] text-[#FFFFFF] w-full mt-4">Add To Cart</button>
                     </div>
                 </div>
-                <div class="">
-                    <!-- product image -->
-                    <div class="">
+
+                <div>
+                    <div>
                         <img src="./assets/sample-flower-image.png" alt="" class="w-full">
                     </div>
-                    <!-- product contents -->
                     <div class="flex flex-col items-center">
                         <p class="text-[#111111] text-xl">Lily Blossom</p>
                         <p class="font-semibold text-[#111111] text-xl">20 USD</p>
                         <button class="uppercase py-4 bg-[#E95A08] text-[#FFFFFF] w-full mt-4">Add To Cart</button>
                     </div>
                 </div>
-                <div class="">
-                    <!-- product image -->
-                    <div class="">
+
+                <div>
+                    <div>
                         <img src="./assets/sample-flower-image.png" alt="" class="w-full">
                     </div>
-                    <!-- product contents -->
                     <div class="flex flex-col items-center">
                         <p class="text-[#111111] text-xl">Lily Blossom</p>
                         <p class="font-semibold text-[#111111] text-xl">20 USD</p>
                         <button class="uppercase py-4 bg-[#E95A08] text-[#FFFFFF] w-full mt-4">Add To Cart</button>
                     </div>
                 </div>
-                <div class="">
-                    <!-- product image -->
-                    <div class="">
+
+                <div>
+                    <div>
                         <img src="./assets/sample-flower-image.png" alt="" class="w-full">
                     </div>
-                    <!-- product contents -->
                     <div class="flex flex-col items-center">
                         <p class="text-[#111111] text-xl">Lily Blossom</p>
                         <p class="font-semibold text-[#111111] text-xl">20 USD</p>
                         <button class="uppercase py-4 bg-[#E95A08] text-[#FFFFFF] w-full mt-4">Add To Cart</button>
                     </div>
                 </div>
-               <div class="">
-                    <!-- product image -->
-                    <div class="">
+
+                <div>
+                    <div>
                         <img src="./assets/sample-flower-image.png" alt="" class="w-full">
                     </div>
-                    <!-- product contents -->
                     <div class="flex flex-col items-center">
                         <p class="text-[#111111] text-xl">Lily Blossom</p>
                         <p class="font-semibold text-[#111111] text-xl">20 USD</p>
                         <button class="uppercase py-4 bg-[#E95A08] text-[#FFFFFF] w-full mt-4">Add To Cart</button>
                     </div>
                 </div>
-                <div class="">
-                    <!-- product image -->
-                    <div class="">
+
+                <div>
+                    <div>
                         <img src="./assets/sample-flower-image.png" alt="" class="w-full">
                     </div>
-                    <!-- product contents -->
                     <div class="flex flex-col items-center">
                         <p class="text-[#111111] text-xl">Lily Blossom</p>
                         <p class="font-semibold text-[#111111] text-xl">20 USD</p>
                         <button class="uppercase py-4 bg-[#E95A08] text-[#FFFFFF] w-full mt-4">Add To Cart</button>
                     </div>
                 </div>
+
                 <div class="hidden lg:block">
-                    <!-- product image -->
-                    <div class="">
+                    <div>
                         <img src="./assets/sample-flower-image.png" alt="" class="w-full">
                     </div>
-                    <!-- product contents -->
                     <div class="flex flex-col items-center">
                         <p class="text-[#111111] text-xl">Lily Blossom</p>
                         <p class="font-semibold text-[#111111] text-xl">20 USD</p>
                         <button class="uppercase py-4 bg-[#E95A08] text-[#FFFFFF] w-full mt-4">Add To Cart</button>
                     </div>
                 </div>
+
                 <div class="hidden lg:block">
-                    <!-- product image -->
-                    <div class="">
+                    <div>
                         <img src="./assets/sample-flower-image.png" alt="" class="w-full">
                     </div>
-                    <!-- product contents -->
                     <div class="flex flex-col items-center">
                         <p class="text-[#111111] text-xl">Lily Blossom</p>
                         <p class="font-semibold text-[#111111] text-xl">20 USD</p>
@@ -161,7 +160,128 @@
                 </div>
             </section>
         </section>
+
+        <!-- Flower & Plants Lover Section -->
+        <section
+            class="w-full lg:max-w-6xl mx-auto my-8 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-10 px-4 py-14">
+            <div class="relative lg:w-1/2">
+                <img src="./assets/flower-store.png" alt="Flower Shop" class="w-full py-4 rounded-md ">
+                <img src="./assets/trusted-badge.png" alt="Trusted Badge"
+                    class="hidden lg:block w-[45%] absolute -top-16 -right-28">
+            </div>
+
+            <!-- Text Section -->
+            <div class="lg:w-1/2 space-y-4 pb-18">
+                <h1 class="text-3xl lg:text-6xl font-bold text-black noto-serif">Flower & Plants<br>Lover</h1>
+                <ul class="list-disc text-black/50 pl-5 space-y-2">
+                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses
+                        to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses
+                        to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses
+                        to exotic blooms, we offer a wide variety of fresh.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Deal Section -->
+        <section class="lg:max-w-6xl lg:mx-auto px-4 py-8">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-semibold">
+                    <span class="text-[#E95A08] font-bold noto-serif">Latest</span> Deals
+                </h2>
+                <p class="text-gray-600 max-w-xl mx-auto mt-2">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                    exotic blooms, we offer a wide variety of fresh.
+                </p>
+            </div>
+            <!-- images -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                <!-- Left side small cards -->
+                <div class="flex flex-col gap-4 w-full lg:col-span-1">
+                    <!-- First card -->
+                    <div
+                        class="relative bg-[url('./assets/deal-bloom.png')] bg-cover bg-center h-[200px] w-full rounded-xl overflow-hidden">
+                        <div
+                            class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-white text-center">
+                            <h3 class="text-xl font-bold">60% Off | Bloom Plant</h3>
+                             <a href="#" class="text-xl underline">Shop Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Second card -->
+                    <div
+                        class="relative bg-[url('./assets/deal-ana.png')] bg-cover bg-center h-[200px] w-full rounded-xl overflow-hidden">
+                        <div
+                            class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-white text-center">
+                            <h3 class="text-xl font-bold">60% Off | Ana Plant</h3>
+                             <a href="#" class="text-xl underline">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right side big card -->
+                <div
+                    class="relative bg-[url('./assets/deal-zabo.png')] bg-cover bg-center w-full h-[200px] lg:h-[420px] lg:col-span-2 rounded-xl overflow-hidden">
+                    <div
+                        class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-white text-center">
+                        <h3 class="text-3xl font-bold">60% Off | Zabo Plant</h3>
+                        <a href="#" class="text-2xl underline">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- / -->
+        </section>
+
+        <!-- last section -->
+        <section class="max-w-6xl mx-auto">
+            <div
+                class="bg-[url('./assets/news-letter-bg.png')] bg-cover bg-center h-[500px] flex flex-col justify-center items-center text-center gap-4">
+                <h1 class="text-white text-3xl font-bold noto-serif">Join the colorful Bunch</h1>
+                <div>
+                    <input type="text" placeholder="Write Email" class="px-6 py-2">
+                    <button class="bg-[#E95A08] py-2 px-4 text-white">Subscribe</button>
+                </div>
+            </div>
+        </section>
+
+
     </main>
+
+    <footer class="bg-white">
+        <section
+            class="flex flex-col lg:flex-row lg:justify-between h-[300px] max-w-6xl mx-auto text-black/50 pt-12 px-4">
+            <div>
+                <img src="./assets/logo.png" alt="">
+                <p class="mt-4">Indulge your senses with the <br> beauty and fragrance of our fresh <br> flower shop.
+                </p>
+            </div>
+            <ul class="flex flex-col space-y-4 pt-4">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <ul class="flex flex-col space-y-4">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Help Center</a></li>
+            </ul>
+
+            <div class="flex items-center py-4 h-[60px] space-x-12">
+                <div><img src="./assets/icon-linkedin.png" alt=""></div>
+                <div><img src="./assets/icon-twitter.png" alt=""></div>
+                <div><img src="./assets/icon-facebook.png" alt=""></div>
+                <div><img src="./assets/icon-youtube.png" alt=""></div>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
