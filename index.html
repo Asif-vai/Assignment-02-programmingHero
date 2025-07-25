@@ -14,7 +14,7 @@
     <title>Flower Market</title>
 </head>
 
-<body class="font-inter">
+<body class="font-inter bg-[#F5F8FF]">
     <header>
         <nav class="max-w-6xl mx-auto flex items-center justify-between py-6 px-4">
             <!-- logo -->
@@ -61,9 +61,9 @@
         <section class="max-w-6xl mx-auto px-4">
             <!-- Product title -->
             <div class="flex flex-col items-center my-14">
-                <h2 class="text-3xl lg:text-5xl noto-serif text-[#000000] "><span class="text-[#E95A08]">Our</span>
+                <h2 class="text-3xl lg:text-5xl noto-serif text-[#000000] font-bold"><span class="text-[#E95A08]">Our</span>
                     Plants</h2>
-                <p class="text-black/50 text-md text-center">Indulge your senses with the beauty and fragrance of our
+                <p class="text-black/50 text-md text-center mt-4">Indulge your senses with the beauty and fragrance of our
                     fresh flower
                     shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
@@ -187,8 +187,8 @@
         <!-- Deal Section -->
         <section class="lg:max-w-6xl lg:mx-auto px-4 py-8">
             <div class="text-center mb-8">
-                <h2 class="text-3xl font-semibold">
-                    <span class="text-[#E95A08] font-bold noto-serif">Latest</span> Deals
+                <h2 class="text-3xl lg:text-6xl font-semibold">
+                    <span class="text-[#E95A08] font-bold noto-serif ">Latest</span> Deals
                 </h2>
                 <p class="text-gray-600 max-w-xl mx-auto mt-2">
                     Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
@@ -197,9 +197,9 @@
             </div>
             <!-- images -->
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-                <!-- Left side small cards -->
+               
                 <div class="flex flex-col gap-4 w-full lg:col-span-1">
-                    <!-- First card -->
+                  
                     <div
                         class="relative bg-[url('./assets/deal-bloom.png')] bg-cover bg-center h-[200px] w-full rounded-xl overflow-hidden">
                         <div
@@ -209,7 +209,7 @@
                         </div>
                     </div>
 
-                    <!-- Second card -->
+                    
                     <div
                         class="relative bg-[url('./assets/deal-ana.png')] bg-cover bg-center h-[200px] w-full rounded-xl overflow-hidden">
                         <div
@@ -220,12 +220,12 @@
                     </div>
                 </div>
 
-                <!-- Right side big card -->
+               
                 <div
                     class="relative bg-[url('./assets/deal-zabo.png')] bg-cover bg-center w-full h-[200px] lg:h-[420px] lg:col-span-2 rounded-xl overflow-hidden">
                     <div
                         class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-white text-center">
-                        <h3 class="text-3xl font-bold">60% Off | Zabo Plant</h3>
+                        <h3 class="text-3xl font-bold">25% Off | Zabo Plant</h3>
                         <a href="#" class="text-2xl underline">Shop Now</a>
                     </div>
                 </div>
@@ -236,10 +236,10 @@
         </section>
 
         <!-- last section -->
-        <section class="max-w-6xl mx-auto">
+        <section class="w-full mx-auto my-14">
             <div
                 class="bg-[url('./assets/news-letter-bg.png')] bg-cover bg-center h-[500px] flex flex-col justify-center items-center text-center gap-4">
-                <h1 class="text-white text-3xl font-bold noto-serif">Join the colorful Bunch</h1>
+                <h1 class="text-white text-2xl lg:text-6xl font-bold noto-serif">Join the colorful Bunch</h1>
                 <div>
                     <input type="text" placeholder="Write Email" class="px-6 py-2">
                     <button class="bg-[#E95A08] py-2 px-4 text-white">Subscribe</button>
@@ -250,38 +250,43 @@
 
     </main>
 
-    <footer class="bg-white">
-        <section
-            class="flex flex-col lg:flex-row lg:justify-between h-[300px] max-w-6xl mx-auto text-black/50 pt-12 px-4">
-            <div>
-                <img src="./assets/logo.png" alt="">
-                <p class="mt-4">Indulge your senses with the <br> beauty and fragrance of our fresh <br> flower shop.
-                </p>
-            </div>
-            <ul class="flex flex-col space-y-4 pt-4">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
+    <footer class="bg-white space-y-12">
+    <section
+        class="flex flex-col lg:flex-row lg:justify-between max-w-6xl mx-auto text-black/50 pt-12 px-4 gap-8">
+        
+        <div>
+            <img src="./assets/logo.png" alt="">
+            <p class="mt-4">Indulge your senses with the <br> beauty and fragrance of our fresh <br> flower shop.</p>
+        </div>
 
-            <ul class="flex flex-col space-y-4">
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Help Center</a></li>
-            </ul>
+        <ul class="flex flex-col space-y-4 pt-4 pb-2">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
 
-            <div class="flex items-center py-4 h-[60px] space-x-12">
-                <div><img src="./assets/icon-linkedin.png" alt=""></div>
-                <div><img src="./assets/icon-twitter.png" alt=""></div>
-                <div><img src="./assets/icon-facebook.png" alt=""></div>
-                <div><img src="./assets/icon-youtube.png" alt=""></div>
-            </div>
-        </section>
-    </footer>
+        <ul class="flex flex-col space-y-4">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Help Center</a></li>
+        </ul>
+
+       
+            <div class="flex items-center space-x-8 flex-wrap h-[60px]">
+            <div><img src="./assets/icon-linkedin.png" alt=""></div>
+            <div><img src="./assets/icon-twitter.png" alt=""></div>
+            <div><img src="./assets/icon-facebook.png" alt=""></div>
+            <div><img src="./assets/icon-youtube.png" alt=""></div>
+        
+        </div>
+    </section>
+</footer>
+
+
 </body>
 
 </html>
